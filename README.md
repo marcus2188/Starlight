@@ -1,4 +1,4 @@
-#*Why aim for the moon when you can go to the stars?*
+*Why aim for the moon when you can go to the stars?*
 
 [Angular 11, Typescript, SCSS, HTML5]
 
