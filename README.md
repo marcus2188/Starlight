@@ -1,6 +1,6 @@
-*Why aim for the moon when you can go to the stars?*
-
 # STARLIGHT
+
+### *Why aim for the moon when you can go to the stars?*
 
 Space is bountiful in its ever expanding presence. We view it through the lens of the constellations of the night sky, segmented regions of observable space with reference to Earth. Its been one of the most fascinating fields of study even to this day, where the names of star signs are worshipped and lauded by academics and keen citizens alike. While we often dabble with these mysterious star signs, not many know of their origins or true meanings. 
 
