@@ -8,6 +8,6 @@ Zodiac star signs; the most famous variety of the bunch, is only one of the 8 fa
 
 ![constellationmap](https://user-images.githubusercontent.com/57174326/121280113-4fc27f00-c908-11eb-9f32-ec0219c9f883.png)
 
-I will make Starlight using the latest and arguably the best framework for web programming to date: Angular 11 by Google and TypeScript by Microsoft. It also aims to utilise and use its noble features such as Dependency Injection (DI), Routing Protocol, Angular Material and more. 
+I will make Starlight using the latest and arguably the best framework for web programming to date: Angular 11 by Google and TypeScript by Microsoft. It also aims to utilise its noble features: Strict MVC architecture, Dependency Injection (DI), Routing Protocol, Angular Material and more. 
 
 [Angular 11, Typescript, SCSS, HTML5]
