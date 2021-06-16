@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import mydata from 'src/assets/try.json';
+import { NgForm } from '@angular/forms';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'navigation-bar',
@@ -8,10 +9,12 @@ import mydata from 'src/assets/try.json';
 })
 export class NavBarComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
-    alert(mydata["constellations"][0]["description"])
+  }
+  onSubmit(form: NgForm){
+    this.router.navigate(["search", form.value.search])
   }
 
 }

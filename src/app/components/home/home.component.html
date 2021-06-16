@@ -1,0 +1,22 @@
+<div class="filters">
+    <mat-form-field>
+        <mat-label>Sort</mat-label>
+        <mat-select panelClass="sort-select" [(ngModel)]="sort">
+            <mat-option value="name">Name</mat-option>
+            <mat-option value="entity">Entity</mat-option>
+            <mat-option value="family">Family</mat-option>
+        </mat-select>
+    </mat-form-field>
+</div>
+<div class="constellations">
+    <ng-container *ngFor="let constel of constellationObject">
+        <div class="constellation">
+            <div class="constellation-thumbnail-container">
+                <img src="/assets/constellations/{{constel.name}}.png" alt="thumbnail" class="constellation-thumbnail">
+            </div>
+            <div class="constellation-info">
+                <p class="constellation-name">{{constel.name}}</p>
+            </div>
+        </div>
+    </ng-container>
+</div>
