@@ -7,7 +7,7 @@
 			"skyarea":"1.8%",
 			"brightest_star":"Alpheratz",
 			"associations":"Andromeda Galaxy",
-			"family":"perseus"
+			"family":"Perseus"
 		},
 		{
 			"name":"Antlia",
@@ -16,7 +16,7 @@
 			"skyarea":"0.6%",
 			"brightest_star":"Alpha-Ant",
 			"associations":"",
-			"family":"la caille"
+			"family":"La caille"
 		},
 		{
 			"name":"Apus",
@@ -25,7 +25,7 @@
 			"skyarea":"0.5%",
 			"brightest_star":"Alpha-Aps",
 			"associations":"",
-			"family":"bayer"
+			"family":"Bayer"
 		},
 		{
 			"name":"Aquarius",
@@ -34,7 +34,7 @@
 			"skyarea":"2.4%",
 			"brightest_star":"Sadalsuud",
 			"associations":"Aquarium Tanks",
-			"family":"zodiac"
+			"family":"Zodiac"
 		},
 		{
 			"name":"Aquila",
@@ -43,7 +43,7 @@
 			"skyarea":"1.6%",
 			"brightest_star":"Altair",
 			"associations":"",
-			"family":"hercules"
+			"family":"Hercules"
 		},
 		{
 			"name":"Ara",
@@ -52,7 +52,7 @@
 			"skyarea":"0.6%",
 			"brightest_star":"Alpha-Ara",
 			"associations":"",
-			"family":"hercules"
+			"family":"Hercules"
 		},
 		{
 			"name":"Aries",
@@ -61,7 +61,7 @@
 			"skyarea":"1.1%",
 			"brightest_star":"Hamal",
 			"associations":"",
-			"family":"zodiac"
+			"family":"Zodiac"
 		},
 		{
 			"name":"Auriga",
@@ -70,7 +70,7 @@
 			"skyarea":"1.6%",
 			"brightest_star":"Capella",
 			"associations":"",
-			"family":"perseus"
+			"family":"Perseus"
 		},
 		{
 			"name":"Bootes",
@@ -79,14 +79,6 @@
 			"skyarea":"2.2%",
 			"brightest_star":"Arcturus",
 			"associations":"",
-			"family":"ursa major"
-		},
-		{
-			"name":"",
-			"entity":"",
-			"description":"",
-			"skyarea":"",
-			"brightest_star":"",
-			"associations":""
+			"family":"Ursa major"
 		}
 		]}

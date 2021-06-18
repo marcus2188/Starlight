@@ -7,6 +7,7 @@
     .mat-form-field-infix {
         background-color: rgb(236, 232, 232);
         border-radius: 10px;
+        margin-right: 20px;
         &:hover{
             box-shadow: 0 9px 9px rgba(0,0,0,0.1);
         }
@@ -74,15 +75,28 @@
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-        height: 100px;
+        height: 150px;
     }
     &-name {
+        height: 30px;
         color: gray;
         font-weight: 200;
-        font-size: 20px;
+        font-size: 25px;
         margin-bottom: 20px;
         white-space: nowrap;
         text-overflow: ellipsis;
         overflow: hidden;
     }
+    &-fam {
+        height: 20px;
+        color: gray;
+        font-weight: 200;
+        font-style: italic;
+        font-size: 15px;
+        margin-bottom: 10px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
 }
