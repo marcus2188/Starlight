@@ -1,6 +1,6 @@
-import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Params } from '@angular/router';
-import { Observable, of } from 'rxjs';
+import { Component, OnDestroy, OnInit } from '@angular/core';
+import { ActivatedRoute, Params, Router } from '@angular/router';
+import { Observable, of, Subscription } from 'rxjs';
 import mydata from 'src/assets/try.json';
 
 @Component({
@@ -8,16 +8,17 @@ import mydata from 'src/assets/try.json';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
-export class HomeComponent implements OnInit {
+export class HomeComponent implements OnInit, OnDestroy {
   public sort: string;
   public order: string;
   public constellationObject = mydata.constellations;
   public constellationList: Observable<Array<{name:string;entity:string;description:string;skyarea:string;brightest_star:string;associations:string;family:string;}>>;
-  constructor(private activatedRoute: ActivatedRoute) { 
+  private routeSub: Subscription;
+  constructor(private activatedRoute: ActivatedRoute, private router: Router) { 
   }
 
   ngOnInit(): void {
-    this.activatedRoute.params.subscribe((params: Params)=>{
+    this.routeSub = this.activatedRoute.params.subscribe((params: Params)=>{
       if(params["constellation-search"]){
         this.searchConstels("Name","Ascending",params["constellation-search"]);
       }else{
@@ -49,5 +50,13 @@ export class HomeComponent implements OnInit {
     }
     this.constellationList = of(this.constellationObject);
   }
+  openDetails(name: string):void{
+    this.router.navigate(["details", name]);
+  }
 
+  ngOnDestroy():void{
+    if(this.routeSub){
+      this.routeSub.unsubscribe();
+    }
+  }
 }

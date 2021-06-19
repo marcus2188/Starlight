@@ -19,7 +19,7 @@
 </div>
 <div class="constellations">
     <ng-container *ngFor="let constel of constellationList | async">
-        <div class="constellation">
+        <div class="constellation" (click)="openDetails(constel.name)">
             <div class="constellation-thumbnail-container">
                 <img src="/assets/constellations/{{constel.name}}.png" alt="thumbnail" class="constellation-thumbnail">
             </div>
