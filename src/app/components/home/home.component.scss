@@ -2,6 +2,8 @@
     max-width: 1200px;
     margin: 20px auto;
     padding-left: 20px;
+    display: flex;
+    justify-content: center;
  }
  ::ng-deep {
     .mat-form-field-infix {

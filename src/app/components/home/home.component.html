@@ -2,7 +2,7 @@
     <span>
         <mat-form-field appearance="none">
             <mat-label>Sort By</mat-label>
-            <mat-select panelClass="sort-select" [(ngModel)]="sort" (selectionChange)="searchConstels(sort, order)">
+            <mat-select panelClass="sort-select" [(ngModel)]="sort" (selectionChange)="searchConstels(sort, order, search)">
                 <mat-option value="Name">Name</mat-option>
                 <mat-option value="Entity">Entity</mat-option>
                 <mat-option value="Family">Family</mat-option>
@@ -10,7 +10,7 @@
         </mat-form-field>
         <mat-form-field appearance="none">
             <mat-label>Order</mat-label>
-            <mat-select panelClass="sort-select" [(ngModel)]="order" (selectionChange)="searchConstels(sort, order)">
+            <mat-select panelClass="sort-select" [(ngModel)]="order" (selectionChange)="searchConstels(sort, order, search)">
                 <mat-option value="Ascending">Ascending</mat-option>
                 <mat-option value="Descending">Descending</mat-option>
             </mat-select>

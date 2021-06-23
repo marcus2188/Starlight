@@ -1,7 +1,7 @@
 <div class="navigation-container">
     <form class="navigation-form" #form="ngForm" (ngSubmit)="onSubmit(form)">
         <span class="mainlogo" routerLink="/">Starlight</span>
-        <input class="navigation-search" name="search" ngModel placeholder="">
+        <input class="navigation-search" name="search" ngModel placeholder="" (input)="onSubmit(form)">
         <button class="navigation-searchbutton"><img src="/assets/icons/searchicon.png" width="13" height="13"></button>
     </form>
 </div>

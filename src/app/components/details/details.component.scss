@@ -1,6 +1,6 @@
 .details-wrapper {
-    max-width: 900px;
-    margin: 20px auto;
+    max-width: 1200px;
+    margin: 0 auto;
     position: relative;
 }
 .details {
@@ -25,7 +25,7 @@
     .skyarea-gauge {
         position: absolute;
         top: 50px;
-        right: 0;
+        right: 200px;
         &-label {
             font-size: 20px;
             color: #fff;
@@ -38,20 +38,20 @@
     &-banner {
         height: 442px;
         overflow: hidden;
-    
         &-img {
-          width: 100%;
-          filter: blur(5px);
+          width: 1200px;
+          filter: blur(8px);
           top: 0;
-          position: fixed;
+          position:absolute;
         }
     }
     &-content {
         text-align: center;
         position: relative;
-        top: -200px;
+        top: -320px;
     }
     &-header {
+        background-color: rgba(255, 255, 255, 0.35);
         &-title {
           font-size: 70px;
           color: #000;
@@ -60,4 +60,18 @@
           white-space: nowrap;
         }
     }
+    &-description {
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+    }
+}
+.description {
+    width: 600px;
+    padding: 20px;
+    background-color: rgba(166, 158, 137, 0.95);
+    color: #fff;
+    border-radius: 25px;
+    white-space: pre-wrap;
+    text-align: left;
 }

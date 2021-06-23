@@ -102,3 +102,7 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Pictures and All
+/src/assets/detailbgs
+/src/assets/constellations
